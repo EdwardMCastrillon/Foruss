@@ -5,23 +5,23 @@
 	<title>Forus, el foro de enseñanza de la web.</title>
 	<link rel="stylesheet" href="Normalize.css">
 	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="responsive.css">
 </head>
 <body>
 	<header>
 		<figure id="header_logo">
 			<img src="logo.png" alt="FORUS" width="140px">
 		</figure>
-		<h1 id="header_titulo">FORUS.... El Foro De Aprendizaje Web</h1>
+		<h1 id="header_titulo">Forus... El Foro De Aprendizaje Web</h1>
 		<figure id="header_avatar">
 			<img src="avatar2.jpg" width="110px">
 			<figcaption id="header_figcaption">
-				*
 			</figcaption>
 		</figure>
 	</header>	
 	<nav>
 		<ul>
-			<li id="nav_blueBox"><a href="#"></a>*</li>
+			<li id="nav_blueBox"><a href="#">Volver</a></li>
 			<li><a href="#">Python</a></li>
 			<li><a href="#">HTML5</a></li>
 			<li><a href="#">Javascript</a></li>
@@ -31,6 +31,13 @@
 		</ul>
 	</nav>
 	<section>
+		<aside id="bienvenida">
+			<h2>Hola, Registrate por favor!.</h2>
+			<p>Te mantendremos informado de todo.</p>
+			<a href="#" id="registro">Registro</a>
+			<p id="texto_registro">Esta pagina es un foro informativo</p>
+			
+		</aside>
 		<article class="item">
 			<figure class="img_item">
 				<img src="web.png" alt="" width="110px">
@@ -42,13 +49,13 @@
 			<p class="data_item">
 				<a class="tag_item"href="#">Categoria</a>
 				<span class="fecha_item">Hace<strong> 5</strong> min</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
+				<a href="#" class="comments">455</a>
+				<a href="#" class="star"></a>
 			</p>
 			<p class="votacion">
-				<a class="up" href="#">Up</a>
+				<a class="up" href="#"></a>
 				3141
-				<a class="down" href="#">Down</a>
+				<a class="down" href="#"></a>
 			</p>
 		</article>
 		<article class="item">
@@ -62,13 +69,13 @@
 			<p class="data_item">
 				<a class="tag_item"href="#">Categoria</a>
 				<span class="fecha_item">Hace<strong> 5</strong> min</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
+				<a href="#" class="comments">455</a>
+				<a href="#" class="star"></a>
 			</p>
 			<p class="votacion">
-				<a class="up" href="#">Up</a>
+				<a class="up" href="#"></a>
 				3141
-				<a class="down" href="#">Down</a>
+				<a class="down" href="#"></a>
 			</p>
 		</article>
 		<article class="item">
@@ -82,13 +89,13 @@
 			<p class="data_item">
 				<a class="tag_item"href="#">Categoria</a>
 				<span class="fecha_item">Hace<strong> 5</strong> min</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
+				<a href="#" class="comments">455</a>
+				<a href="#" class="star"></a>
 			</p>
 			<p class="votacion">
-				<a class="up" href="#">Up</a>
+				<a class="up" href="#"></a>
 				3141
-				<a class="down" href="#">Down</a>
+				<a class="down" href="#"></a>
 			</p>
 		</article>
 		<article class="item">
@@ -102,13 +109,13 @@
 			<p class="data_item">
 				<a class="tag_item"href="#">Categoria</a>
 				<span class="fecha_item">Hace<strong> 5</strong> min</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
+				<a href="#" class="comments">455</a>
+				<a href="#" class="star"></a>
 			</p>
 			<p class="votacion">
-				<a class="up" href="#">Up</a>
+				<a class="up" href="#"></a>
 				3141
-				<a class="down" href="#">Down</a>
+				<a class="down" href="#"></a>
 			</p>
 		</article>
 		<article class="item">
@@ -122,13 +129,13 @@
 			<p class="data_item">
 				<a class="tag_item"href="#">Categoria</a>
 				<span class="fecha_item">Hace<strong> 5</strong> min</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
+				<a href="#" class="comments">455</a>
+				<a href="#" class="star"></a>
 			</p>
 			<p class="votacion">
-				<a class="up" href="#">Up</a>
+				<a class="up" href="#"></a>
 				3141
-				<a class="down" href="#">Down</a>
+				<a class="down" href="#"></a>
 			</p>
 		</article>
 		<article class="item">
@@ -142,19 +149,28 @@
 			<p class="data_item">
 				<a class="tag_item"href="#">Categoria</a>
 				<span class="fecha_item">Hace<strong> 5</strong> min</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
+				<a href="#" class="comments">455</a>
+				<a href="#" class="star"></a>
 			</p>
 			<p class="votacion">
-				<a class="up" href="#">Up</a>
+				<a class="up" href="#"></a>
 				3141
-				<a class="down" href="#">Down</a>
+				<a class="down" href="#"></a>
 			</p>
 		</article>
 	</section>
 	<footer>
-		<p><strong>Powered by EdwardMC.!</strong></p>
-		<p>Forus company © Todos los derechos reservados.</p>
+		<div class="container">
+			<p><strong>Powered by EdwardMC.!</strong></p>
+			<p>Foruss, Medellin-Colombia.</p>
+			<p> © Todos los derechos reservados.</p>
+			<div class="follow">
+				<a href="" class="twitter">T</a>
+				<a href="" class="fb">F</a>
+				<a href="" class="git">G</a>
+			</div>
+
+		</div>
 	</footer>
 </body>
 </html>
